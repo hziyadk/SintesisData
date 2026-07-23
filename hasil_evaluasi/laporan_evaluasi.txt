@@ -1,0 +1,21 @@
+LAPORAN EVALUASI DATA SINTETIS
+==================================================
+
+1. FIDELITY: skor rata-rata = 97.4 / 100
+  [Numerik] age                       KS-stat=0.037  p-value=0.308  skor_mirip=96.3
+  [Numerik] bmi                       KS-stat=0.026  p-value=0.750  skor_mirip=97.4
+  [Numerik] children                  KS-stat=0.042  p-value=0.192  skor_mirip=95.8
+  [Numerik] charges                   KS-stat=0.052  p-value=0.057  skor_mirip=94.8
+  [Kategorikal] sex                    chi2-stat_terskala  p-value=0.053  skor_mirip=99.7
+  [Kategorikal] smoker                 chi2-stat_terskala  p-value=0.704  skor_mirip=100.0
+  [Kategorikal] region                 chi2-stat_terskala  p-value=0.000  skor_mirip=97.6
+
+2. UTILITY: dilewati (--target tidak diisi)
+
+3. PRIVACY: jarak_min=0.0006, persen_hampir_identik=0.20% -> AMAN - baris sintetis cukup berbeda dari data asli
+
+4. VISUAL: lihat file PNG di folder 'hasil_evaluasi'
+
+5. PENYIMPANAN: Data sintesis disimpan di hasil_evaluasi\data_sintesis_tersimpan.csv
+
+KESIMPULAN AKHIR: LAYAK dipakai untuk kompetisi
